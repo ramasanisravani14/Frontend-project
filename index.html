@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteBites - Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  /* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Hero Section */
+#home {
+    background-image: url('https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?s=2048x2048&w=is&k=20&c=0UD2e_KMbkkMcx4j9ZaxGf-z1nMHxch9hi3_0BQmuAo=');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 500px;
+    
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Menu Section */
+#menu {
+    padding: 50px 20px;
+    
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+#menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-item h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.menu-item span {
+    font-size: 1.2rem;
+    color: #ff6f61;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #ff6f61;
+}
+
+</style>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#homes">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Welcome to TasteBites</h1>
+            <p>Delicious meals, cozy ambiance, and exceptional service!</p>
+        </div>
+    </section>
+
+   
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At TasteBites, we specialize in gourmet cuisine made from fresh, local ingredients. Our chefs are dedicated to bringing you unforgettable dishes that will leave you craving more.At TasteBites, we are passionate about crafting unforgettable culinary experiences that celebrate the rich flavors of fresh, locally sourced ingredients. Our team of skilled chefs is dedicated to creating gourmet dishes that blend innovation and tradition, offering a variety of options to satisfy every palate. Whether you're looking for a sophisticated fine dining experience or a casual meal that surprises and delights, we promise to deliver high-quality meals that will leave you craving more.
+
+            We believe that the best meals start with the finest ingredients, which is why we work closely with local farmers, producers, and artisans to bring you only the freshest and most flavorful produce, meats, and spices. At TasteBites, it's not just about food — it's about crafting a culinary journey that excites the senses and leaves a lasting impression. Join us and experience a taste of excellence, where every bite is a celebration of the best that nature has to offer.</p>
+        <p>Locally Sourced Ingredients: We prioritize using the freshest ingredients from local farms and markets to ensure every dish is as flavorful and sustainable as possible.</p>
+       <p>Gourmet Creations: Our talented chefs combine traditional cooking techniques with modern innovations, creating dishes that are both elegant and exciting.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Spaghetti Carbonara</h3>
+                <p>A classic Italian pasta with creamy sauce, pancetta, and Parmesan.</p>
+                <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>Fresh salmon grilled to perfection, served with a side of vegetables.</p>
+                <span>$19.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <p>Traditional pizza topped with fresh mozzarella, basil, and tomato sauce.</p>
+                <span>$12.99</span>
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="https://media.istockphoto.com/id/639389404/photo/authentic-indian-food.jpg?s=1024x1024&w=is&k=20&c=-bmkJA-XCqft6L3j6MIoNEbCAASg-YThYlUj19Fhi5w=" alt="Dish 1">
+            <img src="https://media.istockphoto.com/id/1169694902/photo/assorted-indian-non-vegetarian-food-recipe-served-in-a-group-includes-chicken-curry-mutton.jpg?s=1024x1024&w=is&k=20&c=GT15kLr6dQumMORGNn8Konh6VlRIyQaasrNX1qIAnSc=" alt="Dish 2">
+            <img src="https://media.istockphoto.com/id/1152493500/photo/authentic-indian-dishes-and-snacks.jpg?s=1024x1024&w=is&k=20&c=Sg-IcPrsSNATHg6KPxiJ1iLJOgeZHorsVklZJOSD0U0=" alt="Dish 3">
+            <img src="https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?s=1024x1024&w=is&k=20&c=QPHFTWoscwMSXOEGKoAKOjlCnMGszppFBrqQHdy4EGc=" alt="Restaurant Interior">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TasteBites Restaurant | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
